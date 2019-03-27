@@ -1,11 +1,21 @@
 .App {
   text-align: center;
+  background-color: white;
+  float: left;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
+  width: 100%;
+}
+
+.App-logodua {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+  width: 100%;
 }
 
 .App-header {
@@ -17,6 +27,44 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.kotak{
+  float:left;
+  margin-top: 5vh;
+  padding: 20px;
+ 
+}
+.warna-kotak{
+  height: 400px;
+  background-color:#f37daf;
+  border: 3px solid #543e82;
+}
+.judul{
+  text-align: center;
+  padding: 2px;
+  height: 70px;
+}
+.harga{
+  text-align: center;
+  color: #504522;
+}
+
+.kotakdua{
+  width:50vw;
+  height:20vw;
+  background-color:violet;
+  -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+.kotaktiga{
+  margin-top:0vh;
+  width:40vw;
+  height:20vw;
+  float: right;
+  background-color:violet;
 }
 
 .App-link {
